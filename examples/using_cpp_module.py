@@ -6,7 +6,6 @@ going through the Python wrapper layer.
 """
 
 import numpy as np
-import sys
 
 def main():
     print("=" * 60)
@@ -17,7 +16,7 @@ def main():
         import utils_cpp
         print("\n✓ C++ module loaded successfully!")
         print(f"Module location: {utils_cpp.__file__}\n")
-    except ImportError as e:
+    except ImportError:
         print("\n✗ C++ module not available.")
         print("Build it first with:")
         print("  cd cpp_module && ./build.sh\n")
