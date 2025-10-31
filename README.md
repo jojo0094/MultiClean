@@ -46,6 +46,15 @@ cleaned = clean_array(
 )
 ```
 
+## C++ Module (Experimental)
+
+For improved performance, an experimental C++ implementation of the core utilities is available in the `cpp_module` directory. This module uses:
+- **OpenCV** for image processing operations
+- **pybind11** for Python bindings
+- **Conan** as the package manager
+
+See [cpp_module/README.md](cpp_module/README.md) for build instructions and usage details.
+
 ## Use Cases
 
 MultiClean is designed for cleaning segmentation outputs from:

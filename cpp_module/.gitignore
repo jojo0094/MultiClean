@@ -1,0 +1,29 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Conan files
+conan.lock
+conaninfo.txt
+conanbuildinfo.*
+graph_info.json
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compiled files
+*.o
+*.so
+*.dylib
+*.dll
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
