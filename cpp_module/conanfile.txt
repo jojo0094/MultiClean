@@ -1,0 +1,13 @@
+[requires]
+opencv/4.10.0
+pybind11/2.13.6
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+opencv/*:shared=False
+opencv/*:with_jpeg=True
+opencv/*:with_png=True
+opencv/*:with_tiff=True
